@@ -1,6 +1,6 @@
 # 嵌入式系統教學課程
 
-## 系統範例即時頁面
+## Notion-系統公告與說明
 
 連結: https://ivory-gaura-57e.notion.site/60d63bcefee14a7b81b443ac83f99954
 
