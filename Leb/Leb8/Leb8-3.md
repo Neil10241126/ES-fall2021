@@ -25,14 +25,15 @@ image_size = 224
 dynamic_size = False
 max_dynamic_size = 512
 
-ts3 = 'TA Neil' # Please input your English name
+ts3 = 'Neil' # Please input your English name
 ````
 
 ----
 
-執行結果
+執行結果 (實作: Mouse)
 
-![image](https://user-images.githubusercontent.com/63353432/141667343-95396294-914c-4d29-9f19-828eb07cb6ea.png)
+![image](https://user-images.githubusercontent.com/63353432/142748964-bba1f9e4-f70a-4cad-b1a6-5f467d2337a3.png)
+
 
 熱身程式碼二
 ````Python
@@ -98,7 +99,7 @@ param ['tiger', 'bus', 'car', 'cat', 'dog', 'apple', 'turtle', 'flamingo', 'pian
 print('*** Done by %s at ' % ts3,today, type(today))
 ## Demo: Show tiger
 
-image_name = 'bus' 
+image_name = 'mouse' 
 
 images_for_test_map = {
     "tiger": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg",
@@ -112,6 +113,7 @@ images_for_test_map = {
     "piano": "https://upload.wikimedia.org/wikipedia/commons/d/da/Steinway_%26_Sons_upright_piano%2C_model_K-132%2C_manufactured_at_Steinway%27s_factory_in_Hamburg%2C_Germany.png",
     "honeycomb": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Honey_comb.jpg",
     "teapot": "https://upload.wikimedia.org/wikipedia/commons/4/44/Black_tea_pot_cropped.jpg",
+    "mouse": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtdrq7UsDdZeKSXY02x8vW3OBOXldsZeCDlg&usqp=CAU"
 }
 
 img_url = images_for_test_map[image_name]
